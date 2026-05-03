@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Clean Professional Design</title>
+    <meta name="description" content="Professional portfolio matching the requested design.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="container nav-container">
+            <ul class="nav-links">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+            <a href="assets/CV_Wahyudi_Syaputra.pdf" target="_blank" class="btn-download">DOWNLOAD CV</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section reveal">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <span class="tag">Hai, Saya</span>
+                    <h1 class="hero-title">
+                        Wahyudi Syaputra<br>
+                        <span>Web Developer</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Halo, saya Wahyudi Saputra, seorang Web Developer dan Aplikasi Mobile yang berfokus pada
+                        pembuatan website modern, cepat, dan responsif.
+                        Saya memiliki minat besar dalam dunia teknologi dan terus belajar untuk mengembangkan kemampuan
+                        dalam membangun aplikasi berbasis web dan mobile yang bermanfaat.
+                    </p>
+                    <a href="#contact" class="btn-hire">Let's Talk</a>
+                </div>
+                <div class="hero-image-container">
+                    <img src="assets/profile_final.jpg" alt="Profile Image" class="profile-card">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section reveal">
+            <div class="container about-grid">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="assets/profile_final.jpg" alt="About Me">
+                        <div class="image-border"></div>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <span class="tag">Siapa Saya?</span>
+                    <h2 class="section-title left">Tentang Saya</h2>
+                    <p class="about-text">
+                        Saya adalah seorang <strong>Web Developer</strong> yang berdedikasi untuk menciptakan solusi
+                        digital yang
+                        inovatif. Dengan keahlian di bidang <em>frontend</em> dan <em>backend</em>, saya fokus pada
+                        pembuatan
+                        website yang tidak hanya estetis tetapi juga memiliki performa tinggi dan responsif.
+                    </p>
+                    <p class="about-text">
+                        Saya memiliki pengalaman dalam membangun berbagai proyek web, mulai dari sistem manajemen
+                        informasi hingga
+                        aplikasi interaktif, selalu dengan semangat untuk mempelajari teknologi terbaru.
+                    </p>
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <span class="info-label">Nama:</span>
+                            <span class="info-value">Wahyudi Syaputra</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Email:</span>
+                            <span class="info-value">pyudi2697@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Peran:</span>
+                            <span class="info-value">Fullstack Developer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services" class="reveal">
+            <div class="container">
+                <h2 class="section-title">Services</h2>
+                <div class="projects-grid">
+                    <div class="project-card card-small">
+                        <h3>Web Design</h3>
+                        <p>Modern and responsive UI/UX designs.</p>
+                    </div>
+                    <div class="project-card card-small">
+                        <h3>Development</h3>
+                        <p>High-performance web applications.</p>
+                    </div>
+                    <div class="project-card card-small">
+                        <h3>Consultancy</h3>
+                        <p>Expert advice on digital strategy.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="reveal">
+            <div class="container">
+                <h2 class="section-title">Contact Me</h2>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Let's Work Together</h3>
+                        <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+                        <div class="info-item">
+                            <span class="info-label">Email:</span>
+                            <span class="info-value">pyudi2697@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Phone:</span>
+                            <span class="info-value">+62 857-4338-4723</span>
+                        </div>
+                    </div>
+                    <form class="contact-form" action="https://formsubmit.co/pyudi2697@gmail.com" method="POST"
+                        id="my-form">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" id="submit-btn" class="btn-hire">Send Message</button>
+                        <p id="form-status" style="margin-top: 1rem; font-weight: 600;"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer style="padding: 40px 0; border-top: 1px solid var(--border); text-align: center; color: var(--text-light);">
+        <div class="container">
+            <p>&copy; 2026 Wahyudi Syaputra. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
